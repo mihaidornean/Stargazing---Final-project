@@ -273,9 +273,4 @@ class Card extends Component {
     
   );
 } 
-
-
-
- 
-
 export default App;
