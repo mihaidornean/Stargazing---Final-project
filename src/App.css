@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  object-fit: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: #ffffffc0;
+  overflow: hidden;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app_posts {
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  object-fit: contain;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  background-color: #e5e2f573;
+}
+.app_header {
+  
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #778899;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.app_headerImage {
+  object-fit: contain;
+  
+}
+.app_signup {
+  display: flex;
+  flex-direction: column;
+  
+}
+.app_loginContainer {
+  margin-right: 100px;
+  font-weight: bolder;
+  display: flex;
+}
+.searchBarContainer {
+  width: auto;
+  height: 70px;
+  background-color: #99a7bb;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.slogan {
+  padding: 20px;
+  font-weight: normal;
+  object-fit: contain;
+}
+.searchBar {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.searchBarContainer {
+  padding-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
